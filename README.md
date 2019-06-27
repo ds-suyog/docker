@@ -9,4 +9,4 @@ $docker build --tag sks-python-flask-app .
 This will “tag” the image my-python-app and build it. After it is built, you can run the image as a container.        
 $docker run --name python-app -p 5000:5000 sks-python-flask-app     
 
-![Imgur Image](https://imgur.com/uxdR6Qu.jpg)    
+![Imgur Image](https://imgur.com/2PEx4F3.jpg)    
