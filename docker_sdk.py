@@ -12,7 +12,7 @@ for container in client.containers.list():
 try:
 	#image = client.images.build(path='/home/suyog/github/docker/')
 	image = client.images.build(path="./", tag={'sks-docker-flask-app'})
-	client.containers.run({'sks-docker-flask-app'}, name={'sks-docker-container'}, detach=True)
+	client.containers.run({"sks-docker-flask-app"}, name={"sks-docker-container"}, detach=True)
 	print(image)
 except RuntimeError as e:
 	print(e)
